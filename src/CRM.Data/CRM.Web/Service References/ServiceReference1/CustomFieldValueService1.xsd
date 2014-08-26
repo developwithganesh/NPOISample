@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://localhost:60425/CustomFieldValueService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CRMServices" />
+  <xs:import schemaLocation="http://localhost:9491/CustomFieldValueService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CRMServices" />
   <xs:element name="GetData">
     <xs:complexType>
       <xs:sequence>

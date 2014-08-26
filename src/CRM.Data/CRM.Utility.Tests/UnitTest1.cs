@@ -28,7 +28,7 @@ namespace CRM.Utility.Tests
     [TestMethod]
     public void ShouldCreateWorksheet()
     {
-      WorkbookBuilder<CustomFieldValue> wbuilder = new WorkbookBuilder<CustomFieldValue>("newsheet", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
+        WorkbookBuilderFromType<CustomFieldValue> wbuilder = new WorkbookBuilderFromType<CustomFieldValue>("newsheet", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
       var workBook =  wbuilder.BuildWorkBook();
       Assert.IsTrue(workBook.NumberOfSheets >0);
       
@@ -39,7 +39,7 @@ namespace CRM.Utility.Tests
     [TestMethod]
     public void ShouldFormatNameByRemovingSlash()
     {
-      WorkbookBuilder<CustomFieldValue> wbuilder = new WorkbookBuilder<CustomFieldValue>("new/sheet", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
+        WorkbookBuilderFromType<CustomFieldValue> wbuilder = new WorkbookBuilderFromType<CustomFieldValue>("new/sheet", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
       var workBook = wbuilder.BuildWorkBook();
       Assert.IsTrue(workBook.GetSheetAt(0).SheetName == "new-sheet");
     }
@@ -47,7 +47,7 @@ namespace CRM.Utility.Tests
     [TestMethod]
     public void ShouldFormatNameByRemovingDoubleSlash()
     {
-      WorkbookBuilder<CustomFieldValue> wbuilder = new WorkbookBuilder<CustomFieldValue>("new\\sheet", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
+        WorkbookBuilderFromType<CustomFieldValue> wbuilder = new WorkbookBuilderFromType<CustomFieldValue>("new\\sheet", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
       var workBook = wbuilder.BuildWorkBook();
       Assert.IsTrue(workBook.GetSheetAt(0).SheetName == "new sheet");
     }
@@ -55,7 +55,7 @@ namespace CRM.Utility.Tests
     [TestMethod]
     public void ShouldFormatNameByRemovingquestionmark()
     {
-      WorkbookBuilder<CustomFieldValue> wbuilder = new WorkbookBuilder<CustomFieldValue>("new\\s?he?et", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
+        WorkbookBuilderFromType<CustomFieldValue> wbuilder = new WorkbookBuilderFromType<CustomFieldValue>("new\\s?he?et", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
       var workBook = wbuilder.BuildWorkBook();
       Assert.IsTrue(workBook.GetSheetAt(0).SheetName == "new sheet");
     }
@@ -63,7 +63,7 @@ namespace CRM.Utility.Tests
     [TestMethod]
     public void ShouldFormatNameByCuttingLongName()
     {
-      WorkbookBuilder<CustomFieldValue> wbuilder = new WorkbookBuilder<CustomFieldValue>("newsheetnewsheetnewsheetnewsheetnewsheetnewsheetnewsheetnewsheet", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
+        WorkbookBuilderFromType<CustomFieldValue> wbuilder = new WorkbookBuilderFromType<CustomFieldValue>("newsheetnewsheetnewsheetnewsheetnewsheetnewsheetnewsheetnewsheet", new ListExcelDatasource<CustomFieldValue>(new List<CustomFieldValue>()));
       var workBook = wbuilder.BuildWorkBook();
 
       Assert.IsTrue(workBook.GetSheetAt(0).SheetName == "newsheetnewsheetnews");
@@ -82,7 +82,7 @@ namespace CRM.Utility.Tests
         new CustomFieldValue(){Id = 4, CompanyId = 5, Name = "test5"},
         new CustomFieldValue(){Id = 5, CompanyId = 6, Name = "test6"},
       };
-      WorkbookBuilder<CustomFieldValue> wbuilder = new WorkbookBuilder<CustomFieldValue>("newsheet", new ListExcelDatasource<CustomFieldValue>( list));
+      WorkbookBuilderFromType<CustomFieldValue> wbuilder = new WorkbookBuilderFromType<CustomFieldValue>("newsheet", new ListExcelDatasource<CustomFieldValue>(list));
       var row = wbuilder.BuildWorkBook().GetSheetAt(0).GetRow(0);
       Assert.IsTrue(row.GetCell(0).StringCellValue == "Id");
       var cellCount = row.PhysicalNumberOfCells ;
@@ -100,7 +100,7 @@ namespace CRM.Utility.Tests
         new CustomFieldValue(){Id = 4, CompanyId = 5, Name = "test5"},
         new CustomFieldValue(){Id = 5, CompanyId = 6, Name = "test6"},
       };
-      WorkbookBuilder<CustomFieldValue> wbuilder = new WorkbookBuilder<CustomFieldValue>("newsheet", new ListExcelDatasource<CustomFieldValue>(list));
+      WorkbookBuilderFromType<CustomFieldValue> wbuilder = new WorkbookBuilderFromType<CustomFieldValue>("newsheet", new ListExcelDatasource<CustomFieldValue>(list));
       IWorkbook buildWorkBook = wbuilder.BuildWorkBook();
       ISheet sheetAt = buildWorkBook.GetSheetAt(0);
       var rowCount = sheetAt.PhysicalNumberOfRows;
@@ -111,9 +111,28 @@ namespace CRM.Utility.Tests
       Assert.IsTrue(row.GetCell(1).StringCellValue == "2");
 
       Assert.IsTrue(row.GetCell(3).StringCellValue == "test2");
-
-
     }
+
+      [TestMethod]
+      //[DeploymentItem("7fafca8a-6deb-4d58-acd9-ca456284efe2.xls", "TestData")]
+      public void ShouldReadxlsFile()
+      {
+          string filepath = @"../../TestData/7fafca8a-6deb-4d58-acd9-ca456284efe2.xls";
+         FileExcelDatasource filesource = new FileExcelDatasource(filepath);
+          WorkbookBuilder wbuilder = new WorkbookBuilder("SheetName", filesource);
+
+          IWorkbook buildWorkBook = wbuilder.BuildWorkBook();
+
+          ISheet sheetAt = buildWorkBook.GetSheet("newsheet");
+          var rowCount = sheetAt.PhysicalNumberOfRows;
+          Assert.IsTrue(rowCount == 11);
+
+          //var row = sheetAt.GetRow(1);
+          //Assert.IsTrue(row.GetCell(0).StringCellValue == "1");
+          //Assert.IsTrue(row.GetCell(1).StringCellValue == "2");
+
+          //Assert.IsTrue(row.GetCell(3).StringCellValue == "test2");
+      }
     
   }
 }

@@ -5,10 +5,31 @@ namespace CRM.Utility
 {
   public interface IWorkSheetHeader
   {
-    IRow GetHeaderRow(NPOI.SS.UserModel.ICellStyle style);
+      ICellStyle HeaderCellStyle { get; set; }
+      
+    IRow GetHeaderRow();
 
   }
 
-  
+    public class NoWorksheetHeader : IWorkSheetHeader
+    {
+
+        public IRow GetHeaderRow()
+        {
+            return null;
+        }
+
+        public ICellStyle HeaderCellStyle
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+                throw new System.NotImplementedException();
+            }
+        }
+    }
 }
 

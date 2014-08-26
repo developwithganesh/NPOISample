@@ -8,6 +8,8 @@ namespace CRM.Utility
 {
   public interface IExcelDatasource
   {
-    void ApplyDatasource(ISheet sheet);
+     
+      void ApplyDatasource(IWorkbook workbook);
+
   }
 }

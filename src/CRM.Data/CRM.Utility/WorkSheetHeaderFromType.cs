@@ -15,7 +15,7 @@ namespace CRM.Utility
       this.sheet = sheet;
     }
 
-    public NPOI.SS.UserModel.IRow GetHeaderRow(NPOI.SS.UserModel.ICellStyle style)
+    public NPOI.SS.UserModel.IRow GetHeaderRow()
     {
       var row = sheet.CreateRow(0);
       var properties = typeof (T).GetProperties();
@@ -25,11 +25,14 @@ namespace CRM.Utility
       {
         var cell = row.CreateCell(i);
         cell.SetCellValue(properties[i].Name);
-        if (style != null)
-          cell.CellStyle = style;
+        if (HeaderCellStyle != null)
+            cell.CellStyle = HeaderCellStyle;
       }
       return row;
     }
+
+    public ICellStyle HeaderCellStyle { get; set; }
+
   }
 
 }

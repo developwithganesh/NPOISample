@@ -18,14 +18,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:60425/CustomFieldValueService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:9491/CustomFieldValueService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="CustomFieldValueService.xsd" MetadataType="Schema" ID="beca5303-6d48-455e-be13-f35062d95325" SourceId="1" SourceUrl="http://localhost:60425/CustomFieldValueService.svc?xsd=xsd2" />
-    <MetadataFile FileName="CustomFieldValueService.disco" MetadataType="Disco" ID="2d7c19c8-c899-4905-bede-b31c1e6eba59" SourceId="1" SourceUrl="http://localhost:60425/CustomFieldValueService.svc?disco" />
-    <MetadataFile FileName="CustomFieldValueService1.xsd" MetadataType="Schema" ID="3aff522d-c1d1-4a89-ae24-14c0082fcd8e" SourceId="1" SourceUrl="http://localhost:60425/CustomFieldValueService.svc?xsd=xsd0" />
-    <MetadataFile FileName="CustomFieldValueService.wsdl" MetadataType="Wsdl" ID="8fd384f5-ed52-4423-996e-657d4cf9a0ae" SourceId="1" SourceUrl="http://localhost:60425/CustomFieldValueService.svc?wsdl" />
-    <MetadataFile FileName="CustomFieldValueService2.xsd" MetadataType="Schema" ID="36eb97fc-adca-499c-a3ba-5b58261692e1" SourceId="1" SourceUrl="http://localhost:60425/CustomFieldValueService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CustomFieldValueService.xsd" MetadataType="Schema" ID="beca5303-6d48-455e-be13-f35062d95325" SourceId="1" SourceUrl="http://localhost:9491/CustomFieldValueService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CustomFieldValueService.disco" MetadataType="Disco" ID="2d7c19c8-c899-4905-bede-b31c1e6eba59" SourceId="1" SourceUrl="http://localhost:9491/CustomFieldValueService.svc?disco" />
+    <MetadataFile FileName="CustomFieldValueService1.xsd" MetadataType="Schema" ID="3aff522d-c1d1-4a89-ae24-14c0082fcd8e" SourceId="1" SourceUrl="http://localhost:9491/CustomFieldValueService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CustomFieldValueService.wsdl" MetadataType="Wsdl" ID="8fd384f5-ed52-4423-996e-657d4cf9a0ae" SourceId="1" SourceUrl="http://localhost:9491/CustomFieldValueService.svc?wsdl" />
+    <MetadataFile FileName="CustomFieldValueService2.xsd" MetadataType="Schema" ID="36eb97fc-adca-499c-a3ba-5b58261692e1" SourceId="1" SourceUrl="http://localhost:9491/CustomFieldValueService.svc?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

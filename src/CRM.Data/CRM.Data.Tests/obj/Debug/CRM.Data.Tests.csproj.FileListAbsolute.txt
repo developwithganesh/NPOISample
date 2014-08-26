@@ -10,3 +10,15 @@ C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\EntityFr
 C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\obj\Debug\CRM.Data.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\obj\Debug\CRM.Data.Tests.dll
 C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\obj\Debug\CRM.Data.Tests.pdb
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.Tests.dll.config
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.Tests.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.Tests.pdb
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\bin\Debug\EntityFramework.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.pdb
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\bin\Debug\EntityFramework.xml
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\obj\Debug\CRM.Data.Tests.csprojResolveAssemblyReference.cache
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\obj\Debug\CRM.Data.Tests.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Data.Tests\obj\Debug\CRM.Data.Tests.pdb

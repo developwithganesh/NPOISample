@@ -10,3 +10,15 @@ C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Repository\obj\Debug\CRM.Repo
 C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Repository\bin\Debug\CRM.Repository.dll.config
 C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Repository\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\bin\Debug\CRM.Repository.dll.config
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\bin\Debug\CRM.Repository.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\bin\Debug\CRM.Repository.pdb
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\bin\Debug\CRM.Data.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\bin\Debug\EntityFramework.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\bin\Debug\CRM.Data.pdb
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\bin\Debug\EntityFramework.xml
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\obj\Debug\CRM.Repository.csprojResolveAssemblyReference.cache
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\obj\Debug\CRM.Repository.dll
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Repository\obj\Debug\CRM.Repository.pdb

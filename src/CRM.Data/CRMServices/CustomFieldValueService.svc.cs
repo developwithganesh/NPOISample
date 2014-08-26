@@ -28,7 +28,7 @@ namespace CRMServices
     {
        CustomFieldValueRepository repo = new CustomFieldValueRepository();
        var entities = repo.Get();
-       WorkbookBuilder<CustomFieldValue> wbuilder = new WorkbookBuilder<CustomFieldValue>("newsheet", new ListExcelDatasource<CustomFieldValue>(entities));
+       WorkbookBuilderFromType<CustomFieldValue> wbuilder = new WorkbookBuilderFromType<CustomFieldValue>("newsheet", new ListExcelDatasource<CustomFieldValue>(entities));
 
       string filePath = Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory)+ "\\UploadedFiles";
       string filename = filePath+"\\"+ Guid.NewGuid().ToString()+".xls";
@@ -43,7 +43,7 @@ namespace CRMServices
 
 
 
-      return filePath;
+      return filename;
 
     }
 
