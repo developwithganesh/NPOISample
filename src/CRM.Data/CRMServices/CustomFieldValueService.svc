@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CRMServices.CustomFieldValueService" CodeBehind="CustomFieldValueService.svc.cs" %>

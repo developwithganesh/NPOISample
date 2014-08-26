@@ -1,0 +1,14 @@
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\CRM.Utility.Tests.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\CRM.Utility.Tests.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\CRM.Data.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\NPOI.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\CRM.Data.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\NPOI.xml
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\obj\Debug\CRM.Utility.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\obj\Debug\CRM.Utility.Tests.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\obj\Debug\CRM.Utility.Tests.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\CRM.Utility.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility.Tests\bin\Debug\CRM.Utility.pdb

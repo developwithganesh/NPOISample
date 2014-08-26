@@ -1,0 +1,16 @@
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\CRMServices.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\CRMServices.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\CRM.Data.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\CRM.Repository.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\EntityFramework.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\CRM.Data.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\CRM.Repository.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\EntityFramework.xml
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\obj\Debug\CRMServices.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\obj\Debug\CRMServices.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\obj\Debug\CRMServices.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\CRM.Utility.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\NPOI.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\CRM.Utility.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRMServices\bin\NPOI.xml

@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility\bin\Debug\CRM.Utility.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility\bin\Debug\CRM.Utility.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility\bin\Debug\NPOI.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility\bin\Debug\NPOI.xml
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility\obj\Debug\CRM.Utility.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility\obj\Debug\CRM.Utility.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Utility\obj\Debug\CRM.Utility.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.Tests.dll.config
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.Tests.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.Tests.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\CRM.Data.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\obj\Debug\CRM.Data.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\obj\Debug\CRM.Data.Tests.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data.Tests\obj\Debug\CRM.Data.Tests.pdb

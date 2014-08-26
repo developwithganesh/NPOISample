@@ -1,0 +1,10 @@
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\bin\Debug\CRM.Data.dll.config
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\bin\Debug\CRM.Data.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\bin\Debug\CRM.Data.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\obj\Debug\CRM.Data.dll
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\obj\Debug\CRM.Data.pdb
+C:\Users\Lenovo\Desktop\temp\net REST\CRM.Data\CRM.Data\obj\Debug\CRM.Data.csprojResolveAssemblyReference.cache
