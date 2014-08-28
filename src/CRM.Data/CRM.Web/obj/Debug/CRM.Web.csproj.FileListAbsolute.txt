@@ -100,3 +100,4 @@ D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Web\bin\DotNetOpenAuth.O
 D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Web\obj\Debug\CRM.Web.dll
 D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Web\obj\Debug\CRM.Web.pdb
+D:\Ganesh\personal\Projects\NPOISample\src\CRM.Data\CRM.Web\obj\Debug\CRM.Web.csprojResolveAssemblyReference.cache
