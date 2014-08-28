@@ -24,8 +24,8 @@ namespace CRM.Utility
             if (_fileName == null)
                 return;
              FileInfo f = new FileInfo(_fileName);
-            
-                using (FileStream fs = new FileStream(_fileName, FileMode.Open))
+
+             using (FileStream fs = new FileStream(_fileName, FileMode.Open, FileAccess.Read))
                 {
                     if (f.Extension == ".xls")
                     {

@@ -8,9 +8,9 @@ namespace CRM.Utility
 {
   public class ExcelExporter
   {
-    private WorkbookAbstractBuilder exbuilder;
+    private WorksheetAbstractBuilder exbuilder;
 
-    public ExcelExporter(WorkbookAbstractBuilder builder)
+    public ExcelExporter(WorksheetAbstractBuilder builder)
     {
       exbuilder = builder;
     }
